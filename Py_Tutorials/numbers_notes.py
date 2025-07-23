@@ -52,7 +52,7 @@ print(dir(m))
 #binary representation
 print(format(5,'b'))
 #float binary representation
-print(format(5.5,'b'))
+#print(format(5.5,'b'))
 
 
 
