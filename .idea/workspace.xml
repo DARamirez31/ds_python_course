@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a25d017-7b34-43d3-ab36-120837c0cc2c" name="Changes" comment="Advance 7/22/25">
-      <change afterPath="$PROJECT_DIR$/Py_Tutorials/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_Tutorials/cylinder_volumn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_Tutorials/dictionary_and_tuples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_Tutorials/file_handling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_Tutorials/function_arguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_Tutorials/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_Tutorials/import_user_modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_Tutorials/numpy_test.py" afterDir="false" />
+    <list default="true" id="8a25d017-7b34-43d3-ab36-120837c0cc2c" name="Changes" comment="Advance 7/29/25">
+      <change afterPath="$PROJECT_DIR$/Assignment_Classes_ExceptionHandling/assignment_4_classes_exception_handling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment_Classes_ExceptionHandling/assignment_4_solution_classes_exception_handling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py_Tutorials/exception_handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py_Tutorials/inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py_Tutorials/numpy_learn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Py_Tutorials/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Py_Tutorials/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Py_Tutorials/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Py_Tutorials/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Py_Tutorials/numpy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Py_Tutorials/numpy_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +56,20 @@
     "Python.classes.executor": "Run",
     "Python.cylinder_volumn.executor": "Run",
     "Python.dictionary_and_tuples.executor": "Run",
+    "Python.exception_handling.executor": "Run",
     "Python.file_handling.executor": "Run",
     "Python.for_loop.executor": "Run",
     "Python.function_arguments.executor": "Run",
     "Python.functions.executor": "Run",
     "Python.if_condition.executor": "Run",
     "Python.import_user_modules.executor": "Run",
+    "Python.inheritance.executor": "Run",
     "Python.lists.executor": "Run",
     "Python.main.executor": "Run",
     "Python.myutils.executor": "Run",
     "Python.numbers.executor": "Run",
+    "Python.numpy.executor": "Run",
+    "Python.numpy_learn.executor": "Run",
     "Python.numpy_test.executor": "Run",
     "Python.strings.executor": "Run",
     "Python.strings_excercise.executor": "Run",
@@ -185,7 +187,8 @@
       <workItem from="1753221638657" duration="15040000" />
       <workItem from="1753237017186" duration="238000" />
       <workItem from="1753281432236" duration="595000" />
-      <workItem from="1753827531479" duration="10952000" />
+      <workItem from="1753827531479" duration="11423000" />
+      <workItem from="1754605989776" duration="11566000" />
     </task>
     <task id="LOCAL-00001" summary="Initial setup">
       <option name="closed" value="true" />
@@ -227,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753236708549</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Advance 7/29/25">
+      <option name="closed" value="true" />
+      <created>1753840456137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753840456137</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,11 +260,14 @@
     <MESSAGE value="Advance of 7/22/25" />
     <MESSAGE value="Until Strings basics" />
     <MESSAGE value="Advance 7/22/25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Advance 7/22/25" />
+    <MESSAGE value="Advance 7/29/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Advance 7/29/25" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ds_python_course$numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1753230112181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
     <SUITE FILE_PATH="coverage/ds_python_course$import_user_modules.coverage" NAME="import_user_modules Coverage Results" MODIFIED="1753834242405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
+    <SUITE FILE_PATH="coverage/ds_python_course$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1754608924778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
+    <SUITE FILE_PATH="coverage/ds_python_course$numpy_learn.coverage" NAME="numpy_learn Coverage Results" MODIFIED="1754618063857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
     <SUITE FILE_PATH="coverage/ds_python_course$for_loop.coverage" NAME="for_loop Coverage Results" MODIFIED="1753233658451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
     <SUITE FILE_PATH="coverage/ds_python_course$variables.coverage" NAME="variables Coverage Results" MODIFIED="1753230586453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
     <SUITE FILE_PATH="coverage/ds_python_course$cylinder_volumn.coverage" NAME="cylinder_volumn Coverage Results" MODIFIED="1753829151660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
@@ -265,10 +279,12 @@
     <SUITE FILE_PATH="coverage/ds_python_course$test.coverage" NAME="test Coverage Results" MODIFIED="1753837036715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
     <SUITE FILE_PATH="coverage/ds_python_course$strings_excercise.coverage" NAME="strings_excercise Coverage Results" MODIFIED="1753224057704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
     <SUITE FILE_PATH="coverage/ds_python_course$strings.coverage" NAME="strings Coverage Results" MODIFIED="1741827378643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
-    <SUITE FILE_PATH="coverage/ds_python_course$classes.coverage" NAME="classes Coverage Results" MODIFIED="1753839951095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
-    <SUITE FILE_PATH="coverage/ds_python_course$main.coverage" NAME="main Coverage Results" MODIFIED="1753839300541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ds_python_course$classes.coverage" NAME="classes Coverage Results" MODIFIED="1754607212172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
+    <SUITE FILE_PATH="coverage/ds_python_course$main.coverage" NAME="main Coverage Results" MODIFIED="1754606408595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ds_python_course$lists.coverage" NAME="lists Coverage Results" MODIFIED="1753227992963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
     <SUITE FILE_PATH="coverage/ds_python_course$myutils.coverage" NAME="myutils Coverage Results" MODIFIED="1753834093528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
     <SUITE FILE_PATH="coverage/ds_python_course$file_handling.coverage" NAME="file_handling Coverage Results" MODIFIED="1753836862130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
+    <SUITE FILE_PATH="coverage/ds_python_course$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1754615723711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
+    <SUITE FILE_PATH="coverage/ds_python_course$exception_handling.coverage" NAME="exception_handling Coverage Results" MODIFIED="1754611865957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Py_Tutorials" />
   </component>
 </project>
