@@ -23,13 +23,13 @@ print(rev.shape)
 print(np.sort(rev))
 # Create an array of zeros
 zeros = np.zeros((2, 3))
-print(zeros)
+print("Zeros:",zeros)
 # Create an array of ones
 ones = np.ones((2, 3))
 print(ones)
 # Create an array of a range of numbers
 range4 = np.arange(4)
-print(range4)
+print("arange4:",range4)
 # Create an array of a range between specific numbers
 range_10 =  np.arange(10,20)
 print(range_10)
@@ -65,4 +65,6 @@ print(rev)
 print(np.sqrt(rev))
 # standard deviation
 print(np.std(rev))  # Standard deviation
+
+
 
